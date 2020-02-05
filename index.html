@@ -32,7 +32,7 @@
         'https://connect.facebook.net/en_US/fbevents.js');
     if (Cookies.get('pixel') !== undefined) {
         fbq('init', Cookies.get('pixel'));
-        
+        fbq('track', 'Pageview');
     }
 </script>
 <!-- End Facebook Pixel Code --> </head><body><script>!function(){
